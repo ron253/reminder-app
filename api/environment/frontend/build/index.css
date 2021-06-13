@@ -1,0 +1,186 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+  
+}
+
+/* Container */
+.sideBar {
+  background-color:#2C2D32;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.underline {
+  border-bottom:1px solid gray;
+  
+}
+
+.main-content {
+  margin-left:300px;
+
+}
+
+/* login */
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.adjust-form {
+  margin-top:1.250em;
+  margin-left:21.875em;
+}
+
+.adjust-form-group{
+  margin-left:12.500em;
+}
+
+.adjust-content-btns {
+  margin-left:3.125em;
+}
+
+.adjust-content-acc {
+  margin-left:3.125em;
+}
+
+
+/* priority-page */
+#priority-list {
+  text-align:center;
+
+}
+
+.priority-txt {
+  font-size:2.500em; /*40px font size*/
+}
+
+
+/* Navbar */
+.text {
+  font-size:1.875em; /* 30px font size*/
+ 
+}
+.fixed-bottom {
+  width:10%;
+}
+
+
+
+/* Colors */
+.green {
+  color:#3DB070;
+}
+
+.white {
+  color:#FFFFFF;
+}
+
+
+.blue {
+  color:#007BFF;
+}
+
+.black {
+  color:#2C2D32 !important;
+}
+/* Forms */
+.wrap-text {
+  word-wrap:break-word;
+}
+
+
+.input-group-text {
+  background-color: white !important;
+  border:0 !important;
+  border-radius: 0 !important;
+}
+
+input[id="check-item"] {
+  width:40px !important;
+  height: 40px !important;
+}
+
+
+textarea {
+  border-width:0px !important;
+  border-bottom:1px solid black !important;
+  resize:none !important;
+  
+}
+
+.input-group {
+  width:90% !important;
+}
+
+*:focus
+{
+    box-shadow: none !important;
+    
+}
+
+
+
+
+/* buttons */
+.app-btns {
+  border:none !important;
+  background-color:white !important;
+  outline:none !important;
+}
+
+
+
+
+/* Scroll */
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+
+/* lists */
+
+ul{
+  list-style-type: none;
+}
+
+ol {
+  font-size: 1.875em;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/* Popover checkbox padding  */
+.padding-left {
+  padding-left:2% !important;
+}
+
+blockquote::before {
+  content: open-quote;
+}
+blockquote::after {
+  content: close-quote;
+}
+
+blockquote {
+  quotes: "“" "”" "‘" "’";
+}
+
+#quote {
+  max-width: 20em;
+  margin: 1em;
+  font: 1.8rem/1.4 Georgia, serif;
+}
