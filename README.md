@@ -9,3 +9,6 @@ Backend Frameworks:
 Flask
 
 Languages: python, javascript, HTML, and CSS
+
+![](https://thumbs.gfycat.com/LongBowedBlueandgoldmackaw-size_restricted.gif)
+
